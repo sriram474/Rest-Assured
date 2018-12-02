@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7131" started-at="2018-12-02T11:10:40Z" finished-at="2018-12-02T11:10:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7131" started-at="2018-12-02T11:10:40Z" finished-at="2018-12-02T11:10:48Z">
+      <class name="com.cloudelements.userapi.UserAPI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="setup" is-config="true" duration-ms="274" started-at="2018-12-02T16:40:40Z" finished-at="2018-12-02T16:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifybaseURIStatusCode()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="verifybaseURIStatusCode" duration-ms="1975" started-at="2018-12-02T16:40:41Z" finished-at="2018-12-02T16:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybaseURIStatusCode -->
+        <test-method status="PASS" signature="getUserApiStatusCodeandContentType()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="getUserApiStatusCodeandContentType" duration-ms="1100" started-at="2018-12-02T16:40:43Z" depends-on-methods="com.cloudelements.userapi.UserAPI.verifybaseURIStatusCode" finished-at="2018-12-02T16:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserApiStatusCodeandContentType -->
+        <test-method status="PASS" signature="getSpecificUserDetails()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="getSpecificUserDetails" duration-ms="1016" started-at="2018-12-02T16:40:44Z" depends-on-methods="com.cloudelements.userapi.UserAPI.verifybaseURIStatusCode" finished-at="2018-12-02T16:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificUserDetails -->
+        <test-method status="PASS" signature="getNonExistentUserDetails()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="getNonExistentUserDetails" duration-ms="1038" started-at="2018-12-02T16:40:45Z" depends-on-methods="com.cloudelements.userapi.UserAPI.verifybaseURIStatusCode" finished-at="2018-12-02T16:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNonExistentUserDetails -->
+        <test-method status="PASS" signature="createUser_testingPostMethod()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="createUser_testingPostMethod" duration-ms="841" started-at="2018-12-02T16:40:46Z" depends-on-methods="com.cloudelements.userapi.UserAPI.verifybaseURIStatusCode" finished-at="2018-12-02T16:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_testingPostMethod -->
+        <test-method status="PASS" signature="updateUser_testingPutMethod()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="updateUser_testingPutMethod" duration-ms="870" started-at="2018-12-02T16:40:47Z" depends-on-methods="com.cloudelements.userapi.UserAPI.verifybaseURIStatusCode" finished-at="2018-12-02T16:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser_testingPutMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cloudelements.userapi.UserAPI@2ef5e5e3]" name="teardown" is-config="true" duration-ms="1" started-at="2018-12-02T16:40:48Z" finished-at="2018-12-02T16:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cloudelements.userapi.UserAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
